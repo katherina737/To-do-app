@@ -1,0 +1,67 @@
+#grad {
+    background-image: linear-gradient(to bottom right, #4b134f, #c94b4b);
+    height: 1000px;
+    /* width: 1000px; */
+  }
+
+
+#main-box{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 700px;
+    width: 500px;
+    border-radius: 3%;
+    background-color: #DAC0A3;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.write-task{
+    width: 380px;
+    height: 40px;
+    border: 2px solid #F8F0E5;
+    border-radius: 2%;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+
+.add-button{
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #4b134f;
+    border-radius: 15%;
+}
+
+
+#list-text{
+    color: black;
+    text-align: left;
+    font-weight: normal;
+    font-size: 1.3rem;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.list-box{
+    padding-top: 10px;
+    margin-left: 25px;
+    display: inline-block;
+    /* list-style-type: none; */
+    width: 380px;
+    height: 30px;
+    background-color: #EADBC8;
+    border: 2px solid #F8F0E5;
+    margin-top: 10px;
+}
+
+.delete-button{
+    width: 50px;
+    height: 40px;
+    border: 2px solid #4b134f;
+    border-radius: 15%;
+    
+}
