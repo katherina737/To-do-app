@@ -19,7 +19,7 @@
     font-size: 2.2rem;
 }
 
-.write-task{
+#write-task{
     width: 380px;
     height: 40px;
     border: 2px solid #F8F0E5;
@@ -38,7 +38,7 @@
 }
 
 
-#list-text{
+#list-text, #taskname{
     color: black;
     text-align: left;
     font-weight: normal;
@@ -46,20 +46,29 @@
     font-family: 'Josefin Sans', sans-serif; 
 }
 
-.list-box{
-    padding-top: 10px;
-    margin-left: 25px;
+
+.list-box, .task{
+    padding-top: 5px;
+    color: black;
+    text-align: left;
+    font-weight: normal;
+    font-size: 1.3rem;
+    font-family: 'Josefin Sans', sans-serif; 
     display: inline-block;
-    /* list-style-type: none; */
-    width: 380px;
+    width: 440px;
     height: 30px;
     background-color: #EADBC8;
     border: 2px solid #F8F0E5;
     margin-top: 10px;
+    margin-left: -5px;
 }
 
-.delete-button{
-    width: 50px;
+.delete, .done{
+    margin-top: -8px;
+    margin-left: 5px;
+    position: relative;
+    float: right;
+    width: 40px;
     height: 40px;
     border: 2px solid #4b134f;
     border-radius: 15%;
