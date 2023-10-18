@@ -1,6 +1,6 @@
 document.querySelector(".add-button").onclick = function(){
     if(document.querySelector(".newTask input").value.length == 0){
-        alert("Add task name!");
+        alert("Add a task name!");
     } else {
         document.querySelector("#tasks").innerHTML +=
         `<div class="task">
@@ -25,7 +25,6 @@ document.querySelector(".add-button").onclick = function(){
         var thisTask = document.querySelectorAll(".done");
         for (var i=0; i<thisTask.length; i++) {
             thisTask[i].onclick = function(){
-                // this.getElementById("taskname").value.write(strike());
                 this.style.background="#17594A";
                 this.parentNode.classList.add("checked");
             }    
