@@ -26,7 +26,7 @@ document.querySelector(".add-button").onclick = function(){
         for (var i=0; i<thisTask.length; i++) {
             thisTask[i].onclick = function(){
                 // this.getElementById("taskname").value.write(strike());
-                this.style.background="green";
+                this.style.background="#17594A";
                 this.parentNode.classList.add("checked");
             }    
             
