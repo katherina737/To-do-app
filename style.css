@@ -76,6 +76,11 @@
     
 }
 
+.my-name{
+    text-align: center;
+    color:beige
+}
+
 /* ------------------------------------------- */
 
 @media (max-width: 481px){
@@ -87,7 +92,7 @@
     }
 
     #write-task{
-        width: 180px;
+        width: 200px;
         height: 20px;
         font-size: 0.8rem;
     }
@@ -109,15 +114,14 @@
     }
     
     .list-box, .task{
-        /* position: absolute; */
-        /* float: left; */
+        padding-left: 2px;
         padding-top: 5px;
         font-size: 0.8rem;
-        width: 230px;
+        width: 250px;
         height: 20px;
         border: 1px solid #F8F0E5;
         margin-top: 10px;
-        margin-left: 10px;
+        margin-left: 7px;
     }
     
     .delete, .done{
