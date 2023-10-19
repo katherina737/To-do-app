@@ -3,6 +3,14 @@
     height: 1000px;
   }
 
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a{
+    color: #331635;
+}
+
 #main-box{
     margin-left: auto;
     margin-right: auto;
@@ -11,7 +19,6 @@
     width: 500px;
     border-radius: 3%;
     background-color: #DAC0A3;
-    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     font-weight: bold;
     font-size: 2.2rem;
@@ -44,7 +51,6 @@
     text-align: left;
     font-weight: normal;
     font-size: 1.3rem;
-    font-family: 'Josefin Sans', sans-serif; 
 }
 
 
@@ -54,7 +60,6 @@
     text-align: left;
     font-weight: normal;
     font-size: 1.3rem;
-    font-family: 'Josefin Sans', sans-serif; 
     display: inline-block;
     width: 440px;
     height: 30px;
